@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,23 @@
 		34462E4E24B5005200D03A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34462E3824B5005200D03A7C /* Assets.xcassets */; };
 		34462E5D24B5025300D03A7C /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E5C24B5025300D03A7C /* StatisticView.swift */; };
 		34462E5E24B5025300D03A7C /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E5C24B5025300D03A7C /* StatisticView.swift */; };
+		34462E6124B5032200D03A7C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 34462E6024B5032200D03A7C /* Alamofire */; };
+		34462E6324B5034E00D03A7C /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6224B5034E00D03A7C /* ServiceClient.swift */; };
+		34462E6424B5034E00D03A7C /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6224B5034E00D03A7C /* ServiceClient.swift */; };
+		34462E6624B5042400D03A7C /* NumbersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6524B5042400D03A7C /* NumbersModel.swift */; };
+		34462E6724B5042400D03A7C /* NumbersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6524B5042400D03A7C /* NumbersModel.swift */; };
+		34462E6924B5047A00D03A7C /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6824B5047A00D03A7C /* StatisticModel.swift */; };
+		34462E6A24B5047A00D03A7C /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6824B5047A00D03A7C /* StatisticModel.swift */; };
+		34462E6C24B504AF00D03A7C /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6B24B504AF00D03A7C /* Continent.swift */; };
+		34462E6D24B504AF00D03A7C /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6B24B504AF00D03A7C /* Continent.swift */; };
+		34462E6F24B504DC00D03A7C /* StatisticResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6E24B504DC00D03A7C /* StatisticResponseModel.swift */; };
+		34462E7024B504DC00D03A7C /* StatisticResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6E24B504DC00D03A7C /* StatisticResponseModel.swift */; };
+		34462E7224B5054B00D03A7C /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7124B5054B00D03A7C /* NetworkRouter.swift */; };
+		34462E7324B5054B00D03A7C /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7124B5054B00D03A7C /* NetworkRouter.swift */; };
+		34462E7524B5055400D03A7C /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7424B5055400D03A7C /* NetworkClient.swift */; };
+		34462E7624B5055400D03A7C /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7424B5055400D03A7C /* NetworkClient.swift */; };
+		34462E7824B5056200D03A7C /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7724B5056200D03A7C /* NetworkConstants.swift */; };
+		34462E7924B5056200D03A7C /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7724B5056200D03A7C /* NetworkConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,14 @@
 		34462E4724B5005200D03A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34462E4824B5005200D03A7C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		34462E5C24B5025300D03A7C /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		34462E6224B5034E00D03A7C /* ServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceClient.swift; sourceTree = "<group>"; };
+		34462E6524B5042400D03A7C /* NumbersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersModel.swift; sourceTree = "<group>"; };
+		34462E6824B5047A00D03A7C /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
+		34462E6B24B504AF00D03A7C /* Continent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Continent.swift; sourceTree = "<group>"; };
+		34462E6E24B504DC00D03A7C /* StatisticResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticResponseModel.swift; sourceTree = "<group>"; };
+		34462E7124B5054B00D03A7C /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		34462E7424B5055400D03A7C /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		34462E7724B5056200D03A7C /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34462E6124B5032200D03A7C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +145,10 @@
 		34462E5A24B5007100D03A7C /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				34462E6224B5034E00D03A7C /* ServiceClient.swift */,
+				34462E7424B5055400D03A7C /* NetworkClient.swift */,
+				34462E7124B5054B00D03A7C /* NetworkRouter.swift */,
+				34462E7724B5056200D03A7C /* NetworkConstants.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -126,6 +156,10 @@
 		34462E5B24B5007700D03A7C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				34462E6E24B504DC00D03A7C /* StatisticResponseModel.swift */,
+				34462E6824B5047A00D03A7C /* StatisticModel.swift */,
+				34462E6524B5042400D03A7C /* NumbersModel.swift */,
+				34462E6B24B504AF00D03A7C /* Continent.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,6 +180,9 @@
 			dependencies = (
 			);
 			name = iOS;
+			packageProductDependencies = (
+				34462E6024B5032200D03A7C /* Alamofire */,
+			);
 			productName = iOS;
 			productReference = 34462E3D24B5005200D03A7C /* Covid19Tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -193,6 +230,9 @@
 				Base,
 			);
 			mainGroup = 34462E3024B5004F00D03A7C;
+			packageReferences = (
+				34462E5F24B5032200D03A7C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 34462E3E24B5005200D03A7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -227,7 +267,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34462E6924B5047A00D03A7C /* StatisticModel.swift in Sources */,
+				34462E7224B5054B00D03A7C /* NetworkRouter.swift in Sources */,
+				34462E7824B5056200D03A7C /* NetworkConstants.swift in Sources */,
 				34462E5D24B5025300D03A7C /* StatisticView.swift in Sources */,
+				34462E6C24B504AF00D03A7C /* Continent.swift in Sources */,
+				34462E6324B5034E00D03A7C /* ServiceClient.swift in Sources */,
+				34462E7524B5055400D03A7C /* NetworkClient.swift in Sources */,
+				34462E6F24B504DC00D03A7C /* StatisticResponseModel.swift in Sources */,
+				34462E6624B5042400D03A7C /* NumbersModel.swift in Sources */,
 				34462E4924B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,7 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34462E6A24B5047A00D03A7C /* StatisticModel.swift in Sources */,
+				34462E7324B5054B00D03A7C /* NetworkRouter.swift in Sources */,
+				34462E7924B5056200D03A7C /* NetworkConstants.swift in Sources */,
 				34462E5E24B5025300D03A7C /* StatisticView.swift in Sources */,
+				34462E6D24B504AF00D03A7C /* Continent.swift in Sources */,
+				34462E6424B5034E00D03A7C /* ServiceClient.swift in Sources */,
+				34462E7624B5055400D03A7C /* NetworkClient.swift in Sources */,
+				34462E7024B504DC00D03A7C /* StatisticResponseModel.swift in Sources */,
+				34462E6724B5042400D03A7C /* NumbersModel.swift in Sources */,
 				34462E4A24B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +535,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34462E5F24B5032200D03A7C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34462E6024B5032200D03A7C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34462E5F24B5032200D03A7C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34462E3124B5004F00D03A7C /* Project object */;
 }
