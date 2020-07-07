@@ -30,6 +30,8 @@
 		34462E7624B5055400D03A7C /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7424B5055400D03A7C /* NetworkClient.swift */; };
 		34462E7824B5056200D03A7C /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7724B5056200D03A7C /* NetworkConstants.swift */; };
 		34462E7924B5056200D03A7C /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7724B5056200D03A7C /* NetworkConstants.swift */; };
+		34462E7C24B50D0500D03A7C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7B24B50D0500D03A7C /* Color+Hex.swift */; };
+		34462E7D24B50D0500D03A7C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7B24B50D0500D03A7C /* Color+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,7 @@
 		34462E7124B5054B00D03A7C /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 		34462E7424B5055400D03A7C /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		34462E7724B5056200D03A7C /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		34462E7B24B50D0500D03A7C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,7 @@
 		34462E5824B5005E00D03A7C /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				34462E7A24B50CF500D03A7C /* Extensions */,
 				34462E3824B5005200D03A7C /* Assets.xcassets */,
 			);
 			path = SupportingFiles;
@@ -162,6 +166,14 @@
 				34462E6B24B504AF00D03A7C /* Continent.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		34462E7A24B50CF500D03A7C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				34462E7B24B50D0500D03A7C /* Color+Hex.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +288,7 @@
 				34462E7524B5055400D03A7C /* NetworkClient.swift in Sources */,
 				34462E6F24B504DC00D03A7C /* StatisticResponseModel.swift in Sources */,
 				34462E6624B5042400D03A7C /* NumbersModel.swift in Sources */,
+				34462E7C24B50D0500D03A7C /* Color+Hex.swift in Sources */,
 				34462E4924B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +306,7 @@
 				34462E7624B5055400D03A7C /* NetworkClient.swift in Sources */,
 				34462E7024B504DC00D03A7C /* StatisticResponseModel.swift in Sources */,
 				34462E6724B5042400D03A7C /* NumbersModel.swift in Sources */,
+				34462E7D24B50D0500D03A7C /* Color+Hex.swift in Sources */,
 				34462E4A24B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
