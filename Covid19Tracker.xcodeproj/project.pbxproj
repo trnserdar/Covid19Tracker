@@ -57,9 +57,11 @@
 		34462E3524B5004F00D03A7C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				34462E3624B5004F00D03A7C /* Covid19TrackerApp.swift */,
-				34462E3724B5004F00D03A7C /* ContentView.swift */,
-				34462E3824B5005200D03A7C /* Assets.xcassets */,
+				34462E5724B5005700D03A7C /* Common */,
+				34462E5B24B5007700D03A7C /* Models */,
+				34462E5A24B5007100D03A7C /* Networking */,
+				34462E5824B5005E00D03A7C /* SupportingFiles */,
+				34462E5924B5006D00D03A7C /* Views */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -88,6 +90,44 @@
 				34462E4824B5005200D03A7C /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		34462E5724B5005700D03A7C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				34462E3624B5004F00D03A7C /* Covid19TrackerApp.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		34462E5824B5005E00D03A7C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				34462E3824B5005200D03A7C /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		34462E5924B5006D00D03A7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34462E3724B5004F00D03A7C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34462E5A24B5007100D03A7C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		34462E5B24B5007700D03A7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
