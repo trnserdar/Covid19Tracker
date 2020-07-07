@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		34462E4924B5005200D03A7C /* Covid19TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E3624B5004F00D03A7C /* Covid19TrackerApp.swift */; };
 		34462E4A24B5005200D03A7C /* Covid19TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E3624B5004F00D03A7C /* Covid19TrackerApp.swift */; };
-		34462E4B24B5005200D03A7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E3724B5004F00D03A7C /* ContentView.swift */; };
-		34462E4C24B5005200D03A7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E3724B5004F00D03A7C /* ContentView.swift */; };
 		34462E4D24B5005200D03A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34462E3824B5005200D03A7C /* Assets.xcassets */; };
 		34462E4E24B5005200D03A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34462E3824B5005200D03A7C /* Assets.xcassets */; };
+		34462E5D24B5025300D03A7C /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E5C24B5025300D03A7C /* StatisticView.swift */; };
+		34462E5E24B5025300D03A7C /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E5C24B5025300D03A7C /* StatisticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34462E3624B5004F00D03A7C /* Covid19TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19TrackerApp.swift; sourceTree = "<group>"; };
-		34462E3724B5004F00D03A7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34462E3824B5005200D03A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34462E3D24B5005200D03A7C /* Covid19Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid19Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34462E4024B5005200D03A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34462E4524B5005200D03A7C /* Covid19Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid19Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34462E4724B5005200D03A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34462E4824B5005200D03A7C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		34462E5C24B5025300D03A7C /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 		34462E5924B5006D00D03A7C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				34462E3724B5004F00D03A7C /* ContentView.swift */,
+				34462E5C24B5025300D03A7C /* StatisticView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34462E4B24B5005200D03A7C /* ContentView.swift in Sources */,
+				34462E5D24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E4924B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34462E4C24B5005200D03A7C /* ContentView.swift in Sources */,
+				34462E5E24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E4A24B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
