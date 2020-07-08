@@ -21,7 +21,6 @@ struct DeathView: View {
                     .font(.body)
             }
             .frame(minWidth: 0, maxWidth: .infinity)
-            .padding()
             
             VStack {
                 Text("Total Deaths")
@@ -30,8 +29,8 @@ struct DeathView: View {
                     .font(.body)
             }
             .frame(minWidth: 0, maxWidth: .infinity)
-            .padding()
         }
+        .padding()
         .background(Color(hex: "dd2c00"))
         .cornerRadius(16.0)
         .padding()

@@ -40,6 +40,8 @@
 		34462E8624B6379400D03A7C /* CaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8424B6379400D03A7C /* CaseView.swift */; };
 		34462E8824B63FA500D03A7C /* DeathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8724B63FA500D03A7C /* DeathView.swift */; };
 		34462E8924B63FA500D03A7C /* DeathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8724B63FA500D03A7C /* DeathView.swift */; };
+		34462E8B24B641D900D03A7C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8A24B641D900D03A7C /* TestView.swift */; };
+		34462E8C24B641D900D03A7C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8A24B641D900D03A7C /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,7 @@
 		34462E8124B636AB00D03A7C /* StatisticHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticHeaderView.swift; sourceTree = "<group>"; };
 		34462E8424B6379400D03A7C /* CaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseView.swift; sourceTree = "<group>"; };
 		34462E8724B63FA500D03A7C /* DeathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathView.swift; sourceTree = "<group>"; };
+		34462E8A24B641D900D03A7C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,7 @@
 				34462E7E24B6360F00D03A7C /* CountryView.swift */,
 				34462E8424B6379400D03A7C /* CaseView.swift */,
 				34462E8724B63FA500D03A7C /* DeathView.swift */,
+				34462E8A24B641D900D03A7C /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +303,7 @@
 				34462E6924B5047A00D03A7C /* StatisticModel.swift in Sources */,
 				34462E7224B5054B00D03A7C /* NetworkRouter.swift in Sources */,
 				34462E7824B5056200D03A7C /* NetworkConstants.swift in Sources */,
+				34462E8B24B641D900D03A7C /* TestView.swift in Sources */,
 				34462E8524B6379400D03A7C /* CaseView.swift in Sources */,
 				34462E8824B63FA500D03A7C /* DeathView.swift in Sources */,
 				34462E7F24B6360F00D03A7C /* CountryView.swift in Sources */,
@@ -321,6 +326,7 @@
 				34462E6A24B5047A00D03A7C /* StatisticModel.swift in Sources */,
 				34462E7324B5054B00D03A7C /* NetworkRouter.swift in Sources */,
 				34462E7924B5056200D03A7C /* NetworkConstants.swift in Sources */,
+				34462E8C24B641D900D03A7C /* TestView.swift in Sources */,
 				34462E8624B6379400D03A7C /* CaseView.swift in Sources */,
 				34462E8924B63FA500D03A7C /* DeathView.swift in Sources */,
 				34462E8024B6360F00D03A7C /* CountryView.swift in Sources */,
