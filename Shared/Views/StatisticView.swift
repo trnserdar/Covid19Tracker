@@ -22,7 +22,9 @@ struct StatisticView: View {
                 ScrollView {
                     LazyVStack {
                         ForEach((0..<self.statistics.count), id: \.self) { index in
-                            CountryView(statistic: self.statistics[index])
+                            NavigationLink(destination: CountryDetailView(statistic: self.statistics[index])) {
+                                CountryView(statistic: self.statistics[index])
+                            }
                         }
                     }
                 }

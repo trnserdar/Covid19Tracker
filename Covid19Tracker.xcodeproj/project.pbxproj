@@ -42,6 +42,10 @@
 		34462E8924B63FA500D03A7C /* DeathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8724B63FA500D03A7C /* DeathView.swift */; };
 		34462E8B24B641D900D03A7C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8A24B641D900D03A7C /* TestView.swift */; };
 		34462E8C24B641D900D03A7C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8A24B641D900D03A7C /* TestView.swift */; };
+		34462E8E24B6458D00D03A7C /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8D24B6458D00D03A7C /* CountryDetailView.swift */; };
+		34462E8F24B6458D00D03A7C /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8D24B6458D00D03A7C /* CountryDetailView.swift */; };
+		34462E9124B645DD00D03A7C /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E9024B645DD00D03A7C /* DateView.swift */; };
+		34462E9224B645DD00D03A7C /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E9024B645DD00D03A7C /* DateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +71,8 @@
 		34462E8424B6379400D03A7C /* CaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseView.swift; sourceTree = "<group>"; };
 		34462E8724B63FA500D03A7C /* DeathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathView.swift; sourceTree = "<group>"; };
 		34462E8A24B641D900D03A7C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		34462E8D24B6458D00D03A7C /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		34462E9024B645DD00D03A7C /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,9 +165,11 @@
 				34462E5C24B5025300D03A7C /* StatisticView.swift */,
 				34462E8124B636AB00D03A7C /* StatisticHeaderView.swift */,
 				34462E7E24B6360F00D03A7C /* CountryView.swift */,
+				34462E8D24B6458D00D03A7C /* CountryDetailView.swift */,
+				34462E9024B645DD00D03A7C /* DateView.swift */,
+				34462E8A24B641D900D03A7C /* TestView.swift */,
 				34462E8424B6379400D03A7C /* CaseView.swift */,
 				34462E8724B63FA500D03A7C /* DeathView.swift */,
-				34462E8A24B641D900D03A7C /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,11 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34462E8E24B6458D00D03A7C /* CountryDetailView.swift in Sources */,
 				34462E8224B636AB00D03A7C /* StatisticHeaderView.swift in Sources */,
 				34462E6924B5047A00D03A7C /* StatisticModel.swift in Sources */,
 				34462E7224B5054B00D03A7C /* NetworkRouter.swift in Sources */,
 				34462E7824B5056200D03A7C /* NetworkConstants.swift in Sources */,
 				34462E8B24B641D900D03A7C /* TestView.swift in Sources */,
+				34462E9124B645DD00D03A7C /* DateView.swift in Sources */,
 				34462E8524B6379400D03A7C /* CaseView.swift in Sources */,
 				34462E8824B63FA500D03A7C /* DeathView.swift in Sources */,
 				34462E7F24B6360F00D03A7C /* CountryView.swift in Sources */,
@@ -322,11 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34462E8F24B6458D00D03A7C /* CountryDetailView.swift in Sources */,
 				34462E8324B636AB00D03A7C /* StatisticHeaderView.swift in Sources */,
 				34462E6A24B5047A00D03A7C /* StatisticModel.swift in Sources */,
 				34462E7324B5054B00D03A7C /* NetworkRouter.swift in Sources */,
 				34462E7924B5056200D03A7C /* NetworkConstants.swift in Sources */,
 				34462E8C24B641D900D03A7C /* TestView.swift in Sources */,
+				34462E9224B645DD00D03A7C /* DateView.swift in Sources */,
 				34462E8624B6379400D03A7C /* CaseView.swift in Sources */,
 				34462E8924B63FA500D03A7C /* DeathView.swift in Sources */,
 				34462E8024B6360F00D03A7C /* CountryView.swift in Sources */,

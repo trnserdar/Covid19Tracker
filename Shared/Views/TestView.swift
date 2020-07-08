@@ -21,7 +21,8 @@ struct TestView: View {
         }
         .padding()
         .frame(minWidth: 0, maxWidth: .infinity)
-        .background(Color(hex: "b2ebf2"))
+        .background(Color(hex: "84a9ac"))
+        .foregroundColor(.white)
         .cornerRadius(16.0)
         .padding()
     }

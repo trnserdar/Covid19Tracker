@@ -63,7 +63,8 @@ struct CaseView: View {
             .padding()
             .frame(minWidth: 0, maxWidth: .infinity)
         }
-        .background(Color(hex: "ff5722"))
+        .foregroundColor(.white)
+        .background(Color(hex: "3b6978"))
         .cornerRadius(16.0)
         .padding()
     }

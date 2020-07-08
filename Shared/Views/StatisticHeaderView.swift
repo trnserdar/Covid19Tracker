@@ -13,19 +13,26 @@ struct StatisticHeaderView: View {
         HStack {
             Text("Country")
                 .font(.headline)
+                .padding()
                 .frame(minWidth: 0, maxWidth: .infinity)
-                .foregroundColor(Color(hex: "00bcd4"))
-
+                .background(Color(hex: "84a9ac"))
+                .cornerRadius(8.0)
+            
             Text("New Deaths")
                 .font(.headline)
+                .padding()
                 .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
-                .foregroundColor(Color(hex: "ff5722"))
+                .background(Color(hex: "3b6978"))
+                .cornerRadius(8.0)
 
             Text("Total Deaths")
                 .font(.headline)
+                .padding()
                 .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
-                .foregroundColor(Color(hex: "dd2c00"))
+                .background(Color(hex: "204051"))
+                .cornerRadius(8.0)
         }
+        .foregroundColor(.white)
     }
 }
 

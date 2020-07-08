@@ -31,7 +31,8 @@ struct DeathView: View {
             .frame(minWidth: 0, maxWidth: .infinity)
         }
         .padding()
-        .background(Color(hex: "dd2c00"))
+        .foregroundColor(.white)
+        .background(Color(hex: "204051"))
         .cornerRadius(16.0)
         .padding()
     }
