@@ -46,7 +46,36 @@
 		34462E8F24B6458D00D03A7C /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8D24B6458D00D03A7C /* CountryDetailView.swift */; };
 		34462E9124B645DD00D03A7C /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E9024B645DD00D03A7C /* DateView.swift */; };
 		34462E9224B645DD00D03A7C /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E9024B645DD00D03A7C /* DateView.swift */; };
+		34462E9A24B6518900D03A7C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34462E9924B6518900D03A7C /* WidgetKit.framework */; };
+		34462E9C24B6518900D03A7C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34462E9B24B6518900D03A7C /* SwiftUI.framework */; };
+		34462E9F24B6518900D03A7C /* DailyReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E9E24B6518900D03A7C /* DailyReport.swift */; };
+		34462EA124B6518C00D03A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34462EA024B6518C00D03A7C /* Assets.xcassets */; };
+		34462EA524B6518C00D03A7C /* DailyReportExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34462E9724B6518900D03A7C /* DailyReportExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34462EA324B6518C00D03A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34462E3124B5004F00D03A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34462E9624B6518900D03A7C;
+			remoteInfo = DailyReportExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34462EA924B6518C00D03A7C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				34462EA524B6518C00D03A7C /* DailyReportExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		34462E3624B5004F00D03A7C /* Covid19TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19TrackerApp.swift; sourceTree = "<group>"; };
@@ -73,6 +102,12 @@
 		34462E8A24B641D900D03A7C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		34462E8D24B6458D00D03A7C /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
 		34462E9024B645DD00D03A7C /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		34462E9724B6518900D03A7C /* DailyReportExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DailyReportExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		34462E9924B6518900D03A7C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		34462E9B24B6518900D03A7C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		34462E9E24B6518900D03A7C /* DailyReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReport.swift; sourceTree = "<group>"; };
+		34462EA024B6518C00D03A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34462EA224B6518C00D03A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +126,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34462E9424B6518900D03A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34462E9C24B6518900D03A7C /* SwiftUI.framework in Frameworks */,
+				34462E9A24B6518900D03A7C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +144,8 @@
 				34462E3524B5004F00D03A7C /* Shared */,
 				34462E3F24B5005200D03A7C /* iOS */,
 				34462E4624B5005200D03A7C /* macOS */,
+				34462E9D24B6518900D03A7C /* DailyReport */,
+				34462E9824B6518900D03A7C /* Frameworks */,
 				34462E3E24B5005200D03A7C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,6 +167,7 @@
 			children = (
 				34462E3D24B5005200D03A7C /* Covid19Tracker.app */,
 				34462E4524B5005200D03A7C /* Covid19Tracker.app */,
+				34462E9724B6518900D03A7C /* DailyReportExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +251,25 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		34462E9824B6518900D03A7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34462E9924B6518900D03A7C /* WidgetKit.framework */,
+				34462E9B24B6518900D03A7C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34462E9D24B6518900D03A7C /* DailyReport */ = {
+			isa = PBXGroup;
+			children = (
+				34462E9E24B6518900D03A7C /* DailyReport.swift */,
+				34462EA024B6518C00D03A7C /* Assets.xcassets */,
+				34462EA224B6518C00D03A7C /* Info.plist */,
+			);
+			path = DailyReport;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,10 +280,12 @@
 				34462E3924B5005200D03A7C /* Sources */,
 				34462E3A24B5005200D03A7C /* Frameworks */,
 				34462E3B24B5005200D03A7C /* Resources */,
+				34462EA924B6518C00D03A7C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				34462EA424B6518C00D03A7C /* PBXTargetDependency */,
 			);
 			name = iOS;
 			packageProductDependencies = (
@@ -244,6 +312,23 @@
 			productReference = 34462E4524B5005200D03A7C /* Covid19Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
+		34462E9624B6518900D03A7C /* DailyReportExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34462EA624B6518C00D03A7C /* Build configuration list for PBXNativeTarget "DailyReportExtension" */;
+			buildPhases = (
+				34462E9324B6518900D03A7C /* Sources */,
+				34462E9424B6518900D03A7C /* Frameworks */,
+				34462E9524B6518900D03A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyReportExtension;
+			productName = DailyReportExtension;
+			productReference = 34462E9724B6518900D03A7C /* DailyReportExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -257,6 +342,9 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					34462E4424B5005200D03A7C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					34462E9624B6518900D03A7C = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -279,6 +367,7 @@
 			targets = (
 				34462E3C24B5005200D03A7C /* iOS */,
 				34462E4424B5005200D03A7C /* macOS */,
+				34462E9624B6518900D03A7C /* DailyReportExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -297,6 +386,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				34462E4E24B5005200D03A7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34462E9524B6518900D03A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34462EA124B6518C00D03A7C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +450,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34462E9324B6518900D03A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34462E9F24B6518900D03A7C /* DailyReport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34462EA424B6518C00D03A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34462E9624B6518900D03A7C /* DailyReportExtension */;
+			targetProxy = 34462EA324B6518C00D03A7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		34462E4F24B5005200D03A7C /* Debug */ = {
@@ -470,6 +583,7 @@
 		34462E5224B5005200D03A7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +606,7 @@
 		34462E5324B5005200D03A7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +675,53 @@
 			};
 			name = Release;
 		};
+		34462EA724B6518C00D03A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
+				INFOPLIST_FILE = DailyReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.serdarturan.Covid19Tracker.DailyReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34462EA824B6518C00D03A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75PKQ5LQ7V;
+				INFOPLIST_FILE = DailyReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.serdarturan.Covid19Tracker.DailyReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -586,6 +748,15 @@
 			buildConfigurations = (
 				34462E5524B5005200D03A7C /* Debug */,
 				34462E5624B5005200D03A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34462EA624B6518C00D03A7C /* Build configuration list for PBXNativeTarget "DailyReportExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34462EA724B6518C00D03A7C /* Debug */,
+				34462EA824B6518C00D03A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
