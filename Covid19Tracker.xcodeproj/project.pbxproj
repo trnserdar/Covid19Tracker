@@ -38,6 +38,8 @@
 		34462E8324B636AB00D03A7C /* StatisticHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8124B636AB00D03A7C /* StatisticHeaderView.swift */; };
 		34462E8524B6379400D03A7C /* CaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8424B6379400D03A7C /* CaseView.swift */; };
 		34462E8624B6379400D03A7C /* CaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8424B6379400D03A7C /* CaseView.swift */; };
+		34462E8824B63FA500D03A7C /* DeathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8724B63FA500D03A7C /* DeathView.swift */; };
+		34462E8924B63FA500D03A7C /* DeathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E8724B63FA500D03A7C /* DeathView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,7 @@
 		34462E7E24B6360F00D03A7C /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
 		34462E8124B636AB00D03A7C /* StatisticHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticHeaderView.swift; sourceTree = "<group>"; };
 		34462E8424B6379400D03A7C /* CaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseView.swift; sourceTree = "<group>"; };
+		34462E8724B63FA500D03A7C /* DeathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,7 @@
 				34462E8124B636AB00D03A7C /* StatisticHeaderView.swift */,
 				34462E7E24B6360F00D03A7C /* CountryView.swift */,
 				34462E8424B6379400D03A7C /* CaseView.swift */,
+				34462E8724B63FA500D03A7C /* DeathView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +300,7 @@
 				34462E7224B5054B00D03A7C /* NetworkRouter.swift in Sources */,
 				34462E7824B5056200D03A7C /* NetworkConstants.swift in Sources */,
 				34462E8524B6379400D03A7C /* CaseView.swift in Sources */,
+				34462E8824B63FA500D03A7C /* DeathView.swift in Sources */,
 				34462E7F24B6360F00D03A7C /* CountryView.swift in Sources */,
 				34462E5D24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E6C24B504AF00D03A7C /* Continent.swift in Sources */,
@@ -317,6 +322,7 @@
 				34462E7324B5054B00D03A7C /* NetworkRouter.swift in Sources */,
 				34462E7924B5056200D03A7C /* NetworkConstants.swift in Sources */,
 				34462E8624B6379400D03A7C /* CaseView.swift in Sources */,
+				34462E8924B63FA500D03A7C /* DeathView.swift in Sources */,
 				34462E8024B6360F00D03A7C /* CountryView.swift in Sources */,
 				34462E5E24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E6D24B504AF00D03A7C /* Continent.swift in Sources */,
