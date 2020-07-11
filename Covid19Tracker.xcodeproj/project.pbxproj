@@ -51,6 +51,18 @@
 		34462E9F24B6518900D03A7C /* DailyReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E9E24B6518900D03A7C /* DailyReport.swift */; };
 		34462EA124B6518C00D03A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34462EA024B6518C00D03A7C /* Assets.xcassets */; };
 		34462EA524B6518C00D03A7C /* DailyReportExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34462E9724B6518900D03A7C /* DailyReportExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34462EAB24B99EB400D03A7C /* NewCasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EAA24B99EB400D03A7C /* NewCasesView.swift */; };
+		34462EAC24B99EB400D03A7C /* NewCasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EAA24B99EB400D03A7C /* NewCasesView.swift */; };
+		34462EAD24B99EB400D03A7C /* NewCasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EAA24B99EB400D03A7C /* NewCasesView.swift */; };
+		34462EAE24B99F4E00D03A7C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7B24B50D0500D03A7C /* Color+Hex.swift */; };
+		34462EB024B99F6000D03A7C /* StatisticResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6E24B504DC00D03A7C /* StatisticResponseModel.swift */; };
+		34462EB124B99F6000D03A7C /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6824B5047A00D03A7C /* StatisticModel.swift */; };
+		34462EB224B99F6000D03A7C /* NumbersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6524B5042400D03A7C /* NumbersModel.swift */; };
+		34462EB324B99F6000D03A7C /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6B24B504AF00D03A7C /* Continent.swift */; };
+		34462EB824B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */; };
+		34462EB924B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */; };
+		34462EBA24B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */; };
+		34462EBB24B9B0A800D03A7C /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7724B5056200D03A7C /* NetworkConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +120,8 @@
 		34462E9E24B6518900D03A7C /* DailyReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReport.swift; sourceTree = "<group>"; };
 		34462EA024B6518C00D03A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34462EA224B6518C00D03A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34462EAA24B99EB400D03A7C /* NewCasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCasesView.swift; sourceTree = "<group>"; };
+		34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionServiceClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +231,7 @@
 				34462E8A24B641D900D03A7C /* TestView.swift */,
 				34462E8424B6379400D03A7C /* CaseView.swift */,
 				34462E8724B63FA500D03A7C /* DeathView.swift */,
+				34462EAA24B99EB400D03A7C /* NewCasesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				34462E6224B5034E00D03A7C /* ServiceClient.swift */,
+				34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */,
 				34462E7424B5055400D03A7C /* NetworkClient.swift */,
 				34462E7124B5054B00D03A7C /* NetworkRouter.swift */,
 				34462E7724B5056200D03A7C /* NetworkConstants.swift */,
@@ -416,12 +432,14 @@
 				34462E7F24B6360F00D03A7C /* CountryView.swift in Sources */,
 				34462E5D24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E6C24B504AF00D03A7C /* Continent.swift in Sources */,
+				34462EAB24B99EB400D03A7C /* NewCasesView.swift in Sources */,
 				34462E6324B5034E00D03A7C /* ServiceClient.swift in Sources */,
 				34462E7524B5055400D03A7C /* NetworkClient.swift in Sources */,
 				34462E6F24B504DC00D03A7C /* StatisticResponseModel.swift in Sources */,
 				34462E6624B5042400D03A7C /* NumbersModel.swift in Sources */,
 				34462E7C24B50D0500D03A7C /* Color+Hex.swift in Sources */,
 				34462E4924B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
+				34462EB824B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,12 +459,14 @@
 				34462E8024B6360F00D03A7C /* CountryView.swift in Sources */,
 				34462E5E24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E6D24B504AF00D03A7C /* Continent.swift in Sources */,
+				34462EAC24B99EB400D03A7C /* NewCasesView.swift in Sources */,
 				34462E6424B5034E00D03A7C /* ServiceClient.swift in Sources */,
 				34462E7624B5055400D03A7C /* NetworkClient.swift in Sources */,
 				34462E7024B504DC00D03A7C /* StatisticResponseModel.swift in Sources */,
 				34462E6724B5042400D03A7C /* NumbersModel.swift in Sources */,
 				34462E7D24B50D0500D03A7C /* Color+Hex.swift in Sources */,
 				34462E4A24B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
+				34462EB924B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +474,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34462EBB24B9B0A800D03A7C /* NetworkConstants.swift in Sources */,
 				34462E9F24B6518900D03A7C /* DailyReport.swift in Sources */,
+				34462EB024B99F6000D03A7C /* StatisticResponseModel.swift in Sources */,
+				34462EAD24B99EB400D03A7C /* NewCasesView.swift in Sources */,
+				34462EB224B99F6000D03A7C /* NumbersModel.swift in Sources */,
+				34462EB324B99F6000D03A7C /* Continent.swift in Sources */,
+				34462EB124B99F6000D03A7C /* StatisticModel.swift in Sources */,
+				34462EAE24B99F4E00D03A7C /* Color+Hex.swift in Sources */,
+				34462EBA24B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
