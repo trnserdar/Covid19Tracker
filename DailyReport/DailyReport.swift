@@ -12,33 +12,44 @@ struct Provider: TimelineProvider {
     public typealias Entry = SimpleEntry
 
     public func snapshot(with context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date())
+        let entry = SimpleEntry(date: Date(), statistic: StatisticModel.testData)
         completion(entry)
     }
 
     public func timeline(with context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [SimpleEntry] = []
+        
+        URLSessionServiceClient.getStatistics { (response, error) in
+            
+            let newEntryDate = Calendar.current.date(byAdding: .hour, value: 1, to: Date())!
 
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
-        let currentDate = Date()
-        for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate)
-            entries.append(entry)
+            guard error == nil,
+                let response = response,
+                let list = response.response,
+                let all = list.first(where: {$0.country == "Turkey"}) else {
+                print("getStatistics error: \(error?.localizedDescription ?? "")")
+                let timeline = Timeline(entries: [SimpleEntry(date: Date(), statistic: StatisticModel.testData)], policy: .after(newEntryDate))
+                completion(timeline)
+                return
+            }
+            
+            print("getStatistics date: \(Date())")
+            let timeline = Timeline(entries: [SimpleEntry(date: Date(), statistic: all)], policy: .after(newEntryDate))
+            completion(timeline)
         }
-
-        let timeline = Timeline(entries: entries, policy: .atEnd)
-        completion(timeline)
     }
 }
 
 struct SimpleEntry: TimelineEntry {
     public let date: Date
+    let statistic: StatisticModel
 }
 
 struct PlaceholderView : View {
     var body: some View {
-        Text("Placeholder View")
+        ZStack {
+            Color(hex: "204051")
+            NewCasesView(statistic: StatisticModel.testData)
+        }
     }
 }
 
@@ -46,7 +57,10 @@ struct DailyReportEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        Text(entry.date, style: .time)
+        ZStack {
+            Color(hex: "204051")
+            NewCasesView(statistic: entry.statistic)
+        }
     }
 }
 
@@ -58,13 +72,24 @@ struct DailyReport: Widget {
         StaticConfiguration(kind: kind, provider: Provider(), placeholder: PlaceholderView()) { entry in
             DailyReportEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+        .configurationDisplayName("Covid19 Daily Tracker")
+        .description("Shows daily Covid19 numbers.")
     }
 }
 
 struct DailyReport_Previews: PreviewProvider {
     static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+        Group {
+            
+            NewCasesView(statistic: StatisticModel.testData)
+                .previewContext(WidgetPreviewContext(family: .systemSmall))
+            
+            NewCasesView(statistic: StatisticModel.testData)
+                .previewContext(WidgetPreviewContext(family: .systemMedium))
+
+            
+            PlaceholderView()
+                .previewContext(WidgetPreviewContext(family: .systemSmall))
+        }
     }
 }
