@@ -27,18 +27,8 @@ struct DateView: View {
     
     var body: some View {
         
-        VStack {
-            Text("Last Updated")
-                .font(.headline)
-            Text(dateWithFormat)
-                .font(.body)
-        }
-        .padding()
-        .frame(minWidth: 0, maxWidth: .infinity)
-        .background(Color(hex: "204051"))
-        .foregroundColor(.white)
-        .cornerRadius(16.0)
-        .padding()
+        NumbersView(title: "Last Updated", value: dateWithFormat)
+            .statisticStyle(backgroundColor: Color.testColor)
     }
 }
 

@@ -14,17 +14,9 @@ struct TestView: View {
     var body: some View {
         
         VStack {
-            Text("Total Tests")
-                .font(.headline)
-            Text("\(self.testNumbers.total ?? 0)")
-                .font(.body)
+            NumbersView(title: "Total Tests", value: "\(self.testNumbers.total ?? 0)")
         }
-        .padding()
-        .frame(minWidth: 0, maxWidth: .infinity)
-        .background(Color(hex: "84a9ac"))
-        .foregroundColor(.white)
-        .cornerRadius(16.0)
-        .padding()
+        .statisticStyle(backgroundColor: Color.testColor)
     }
 }
 

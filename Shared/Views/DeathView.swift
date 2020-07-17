@@ -14,27 +14,10 @@ struct DeathView: View {
     var body: some View {
         
         HStack {
-            VStack {
-                Text("New Deaths")
-                    .font(.headline)
-                Text("\(self.deathNumbers.new ?? "")")
-                    .font(.body)
-            }
-            .frame(minWidth: 0, maxWidth: .infinity)
-            
-            VStack {
-                Text("Total Deaths")
-                    .font(.headline)
-                Text("\(self.deathNumbers.total ?? 0)")
-                    .font(.body)
-            }
-            .frame(minWidth: 0, maxWidth: .infinity)
+            NumbersView(title: "New Deaths", value: "\(self.deathNumbers.new ?? "")")
+            NumbersView(title: "Total Deaths", value: "\(self.deathNumbers.total ?? 0)")
         }
-        .padding()
-        .foregroundColor(.white)
-        .background(Color(hex: "204051"))
-        .cornerRadius(16.0)
-        .padding()
+        .statisticStyle(backgroundColor: Color.dateColor)
     }
 }
 

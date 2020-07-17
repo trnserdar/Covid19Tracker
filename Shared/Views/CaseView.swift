@@ -15,58 +15,21 @@ struct CaseView: View {
         
         VStack {
             HStack {
-                VStack {
-                    Text("New Cases")
-                        .font(.headline)
-                    Text("\(self.caseNumbers.new ?? "")")
-                        .font(.body)
-                }
-                .frame(minWidth: 0, maxWidth: .infinity)
-
-                VStack {
-                    Text("Active Cases")
-                        .font(.headline)
-                    Text("\(self.caseNumbers.active ?? 0)")
-                        .font(.body)
-                }
-                .frame(minWidth: 0, maxWidth: .infinity)
+                NumbersView(title: "New Cases", value: "\(self.caseNumbers.new ?? "")")
+                NumbersView(title: "Active Cases", value: "\(self.caseNumbers.active ?? 0)")
             }
-            .padding()
-            .frame(minWidth: 0, maxWidth: .infinity)
+            .numbersStyle()
             
             HStack {
-                VStack {
-                    Text("Critical Cases")
-                        .font(.headline)
-                    Text("\(self.caseNumbers.critical ?? 0)")
-                        .font(.body)
-                }
-                .frame(minWidth: 0, maxWidth: .infinity)
-
-                VStack {
-                    Text("Recovered Cases")
-                        .font(.headline)
-                    Text("\(self.caseNumbers.recovered ?? 0)")
-                        .font(.body)
-                }
-                .frame(minWidth: 0, maxWidth: .infinity)
+                NumbersView(title: "Critical Cases", value: "\(self.caseNumbers.critical ?? 0)")
+                NumbersView(title: "Recovered Cases", value: "\(self.caseNumbers.recovered ?? 0)")
             }
-            .padding()
-            .frame(minWidth: 0, maxWidth: .infinity)
+            .numbersStyle()
             
-            VStack {
-                Text("Total Cases")
-                    .font(.headline)
-                Text("\(self.caseNumbers.total ?? 0)")
-                    .font(.body)
-            }
-            .padding()
-            .frame(minWidth: 0, maxWidth: .infinity)
+            NumbersView(title: "Total Cases", value: "\(self.caseNumbers.total ?? 0)")
+                .numbersStyle()
         }
-        .foregroundColor(.white)
-        .background(Color(hex: "3b6978"))
-        .cornerRadius(16.0)
-        .padding()
+        .statisticStyle(backgroundColor: Color.caseColor)
     }
 }
 
