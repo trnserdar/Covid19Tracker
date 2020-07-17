@@ -84,6 +84,9 @@
 		3470E69B24C259B6008235DC /* HeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69A24C259B6008235DC /* HeaderModifier.swift */; };
 		3470E69C24C259B6008235DC /* HeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69A24C259B6008235DC /* HeaderModifier.swift */; };
 		3470E69D24C259B6008235DC /* HeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69A24C259B6008235DC /* HeaderModifier.swift */; };
+		3470E69F24C25B0A008235DC /* CountryModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69E24C25B0A008235DC /* CountryModifier.swift */; };
+		3470E6A024C25B0A008235DC /* CountryModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69E24C25B0A008235DC /* CountryModifier.swift */; };
+		3470E6A124C25B0A008235DC /* CountryModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69E24C25B0A008235DC /* CountryModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +153,7 @@
 		3470E68E24C2550F008235DC /* NumbersModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersModifier.swift; sourceTree = "<group>"; };
 		3470E69624C256DD008235DC /* StatisticModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModifier.swift; sourceTree = "<group>"; };
 		3470E69A24C259B6008235DC /* HeaderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModifier.swift; sourceTree = "<group>"; };
+		3470E69E24C25B0A008235DC /* CountryModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				3470E69A24C259B6008235DC /* HeaderModifier.swift */,
+				3470E69E24C25B0A008235DC /* CountryModifier.swift */,
 				3470E68224C2516F008235DC /* TitleModifier.swift */,
 				3470E68624C25195008235DC /* BodyModifier.swift */,
 				3470E68E24C2550F008235DC /* NumbersModifier.swift */,
@@ -483,6 +488,7 @@
 				34462E5D24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E6C24B504AF00D03A7C /* Continent.swift in Sources */,
 				34462EAB24B99EB400D03A7C /* NewCasesView.swift in Sources */,
+				3470E69F24C25B0A008235DC /* CountryModifier.swift in Sources */,
 				3470E68324C2516F008235DC /* TitleModifier.swift in Sources */,
 				34462E6324B5034E00D03A7C /* ServiceClient.swift in Sources */,
 				34462E7524B5055400D03A7C /* NetworkClient.swift in Sources */,
@@ -517,6 +523,7 @@
 				34462E5E24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E6D24B504AF00D03A7C /* Continent.swift in Sources */,
 				34462EAC24B99EB400D03A7C /* NewCasesView.swift in Sources */,
+				3470E6A024C25B0A008235DC /* CountryModifier.swift in Sources */,
 				3470E68424C2516F008235DC /* TitleModifier.swift in Sources */,
 				34462E6424B5034E00D03A7C /* ServiceClient.swift in Sources */,
 				34462E7624B5055400D03A7C /* NetworkClient.swift in Sources */,
@@ -540,6 +547,7 @@
 				34462EB024B99F6000D03A7C /* StatisticResponseModel.swift in Sources */,
 				34462EAD24B99EB400D03A7C /* NewCasesView.swift in Sources */,
 				3470E69D24C259B6008235DC /* HeaderModifier.swift in Sources */,
+				3470E6A124C25B0A008235DC /* CountryModifier.swift in Sources */,
 				34462EB224B99F6000D03A7C /* NumbersModel.swift in Sources */,
 				3470E69924C256DD008235DC /* StatisticModifier.swift in Sources */,
 				3470E68124C24F40008235DC /* View+Modifiers.swift in Sources */,

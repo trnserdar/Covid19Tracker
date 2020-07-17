@@ -13,6 +13,10 @@ extension View {
         self.modifier(HeaderModifier(backgroundColor: backgroundColor))
     }
     
+    func countryStyle(foregroundColor: Color) -> some View {
+        self.modifier(CountryModifier(foregroundColor: foregroundColor))
+    }
+    
     func titleStyle() -> some View {
         self.modifier(TitleModifier())
     }

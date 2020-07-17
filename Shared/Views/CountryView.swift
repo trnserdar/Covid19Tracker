@@ -15,19 +15,13 @@ struct CountryView: View {
         
         HStack {
             Text("\(self.statistic.country ?? "")")
-                .font(.body)
-                .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
-                .foregroundColor(Color(hex: "84a9ac"))
+                .countryStyle(foregroundColor: Color.testColor)
 
             Text("\(self.statistic.deaths?.new ?? "")")
-                .font(.body)
-                .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
-                .foregroundColor(Color(hex: "3b6978"))
+                .countryStyle(foregroundColor: Color.caseColor)
 
             Text("\(self.statistic.deaths?.total ?? 0)")
-                .font(.body)
-                .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
-                .foregroundColor(Color(hex: "204051"))
+                .countryStyle(foregroundColor: Color.dateColor)
         }
         .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: 40, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
     }
