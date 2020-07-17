@@ -32,4 +32,8 @@ extension View {
     func statisticStyle(backgroundColor: Color) -> some View {
         self.modifier(StatisticModifier(backgroundColor: backgroundColor))
     }
+    
+    func widgetNumbersStyle(backgroundColor: Color) -> some View {
+        self.modifier(WidgetNumbersModifier(backgroundColor: backgroundColor))
+    }
 }

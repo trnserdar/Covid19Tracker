@@ -32,38 +32,12 @@ struct NewCasesView: View {
     var body: some View {
        
         VStack {
-            VStack {
-                Text("\(statistic.country ?? "")")
-                    .font(.headline)
-                Text("\(dateWithFormat)")
-                    .font(.callout)
-            }
-            .padding()
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-            .background(Color(hex: "204051"))
-            .foregroundColor(.white)
-            
-            VStack {
-                Text("New Cases")
-                    .font(.callout)
-                Text("\(statistic.cases?.new ?? "")")
-                    .font(.headline)
-            }
-            .padding()
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-            .background(Color(hex: "3b6978"))
-            .foregroundColor(.white)
-            
-            VStack {
-                Text("New Deaths")
-                    .font(.callout)
-                Text("\(statistic.deaths?.new ?? "")")
-                    .font(.headline)
-            }
-            .padding()
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-            .background(Color(hex: "204051"))
-            .foregroundColor(.white)
+            WidgetNumbersView(title: "\(statistic.country ?? "")", value: "\(dateWithFormat)", containsDate: true)
+                .widgetNumbersStyle(backgroundColor: Color.dateColor)
+            WidgetNumbersView(title: "New Cases", value: "\(statistic.cases?.new ?? "")", containsDate: false)
+                .widgetNumbersStyle(backgroundColor: Color.caseColor)
+            WidgetNumbersView(title: "New Deaths", value: "\(statistic.deaths?.new ?? "")", containsDate: false)
+                .widgetNumbersStyle(backgroundColor: Color.dateColor)
         }
         .background(Color.clear)
     }

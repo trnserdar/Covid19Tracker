@@ -86,6 +86,12 @@
 		3470E69F24C25B0A008235DC /* CountryModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69E24C25B0A008235DC /* CountryModifier.swift */; };
 		3470E6A024C25B0A008235DC /* CountryModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69E24C25B0A008235DC /* CountryModifier.swift */; };
 		3470E6A124C25B0A008235DC /* CountryModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69E24C25B0A008235DC /* CountryModifier.swift */; };
+		3470E6A724C25DFF008235DC /* WidgetNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E6A624C25DFF008235DC /* WidgetNumbersView.swift */; };
+		3470E6A824C25DFF008235DC /* WidgetNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E6A624C25DFF008235DC /* WidgetNumbersView.swift */; };
+		3470E6A924C25DFF008235DC /* WidgetNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E6A624C25DFF008235DC /* WidgetNumbersView.swift */; };
+		3470E6AB24C25ED0008235DC /* WidgetNumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E6AA24C25ED0008235DC /* WidgetNumbersModifier.swift */; };
+		3470E6AC24C25ED0008235DC /* WidgetNumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E6AA24C25ED0008235DC /* WidgetNumbersModifier.swift */; };
+		3470E6AD24C25ED0008235DC /* WidgetNumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E6AA24C25ED0008235DC /* WidgetNumbersModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +159,8 @@
 		3470E69624C256DD008235DC /* StatisticModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModifier.swift; sourceTree = "<group>"; };
 		3470E69A24C259B6008235DC /* HeaderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModifier.swift; sourceTree = "<group>"; };
 		3470E69E24C25B0A008235DC /* CountryModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModifier.swift; sourceTree = "<group>"; };
+		3470E6A624C25DFF008235DC /* WidgetNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetNumbersView.swift; sourceTree = "<group>"; };
+		3470E6AA24C25ED0008235DC /* WidgetNumbersModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetNumbersModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +331,7 @@
 				3470E68624C25195008235DC /* BodyModifier.swift */,
 				3470E68E24C2550F008235DC /* NumbersModifier.swift */,
 				3470E69624C256DD008235DC /* StatisticModifier.swift */,
+				3470E6AA24C25ED0008235DC /* WidgetNumbersModifier.swift */,
 			);
 			name = ViewModifiers;
 			path = "New Group";
@@ -354,6 +363,7 @@
 			isa = PBXGroup;
 			children = (
 				3470E68A24C25348008235DC /* NumbersView.swift */,
+				3470E6A624C25DFF008235DC /* WidgetNumbersView.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -497,8 +507,10 @@
 				3470E67F24C24F40008235DC /* View+Modifiers.swift in Sources */,
 				3470E68B24C25348008235DC /* NumbersView.swift in Sources */,
 				3470E69724C256DD008235DC /* StatisticModifier.swift in Sources */,
+				3470E6AB24C25ED0008235DC /* WidgetNumbersModifier.swift in Sources */,
 				34462E6924B5047A00D03A7C /* StatisticModel.swift in Sources */,
 				34462E7224B5054B00D03A7C /* NetworkRouter.swift in Sources */,
+				3470E6A724C25DFF008235DC /* WidgetNumbersView.swift in Sources */,
 				34462E7824B5056200D03A7C /* NetworkConstants.swift in Sources */,
 				34462E8B24B641D900D03A7C /* TestView.swift in Sources */,
 				34462E9124B645DD00D03A7C /* DateView.swift in Sources */,
@@ -532,8 +544,10 @@
 				3470E68024C24F40008235DC /* View+Modifiers.swift in Sources */,
 				3470E68C24C25348008235DC /* NumbersView.swift in Sources */,
 				3470E69824C256DD008235DC /* StatisticModifier.swift in Sources */,
+				3470E6AC24C25ED0008235DC /* WidgetNumbersModifier.swift in Sources */,
 				34462E6A24B5047A00D03A7C /* StatisticModel.swift in Sources */,
 				34462E7324B5054B00D03A7C /* NetworkRouter.swift in Sources */,
+				3470E6A824C25DFF008235DC /* WidgetNumbersView.swift in Sources */,
 				34462E7924B5056200D03A7C /* NetworkConstants.swift in Sources */,
 				34462E8C24B641D900D03A7C /* TestView.swift in Sources */,
 				34462E9224B645DD00D03A7C /* DateView.swift in Sources */,
@@ -565,6 +579,7 @@
 				34462EBB24B9B0A800D03A7C /* NetworkConstants.swift in Sources */,
 				34462E9F24B6518900D03A7C /* DailyReport.swift in Sources */,
 				3470E69124C25510008235DC /* NumbersModifier.swift in Sources */,
+				3470E6A924C25DFF008235DC /* WidgetNumbersView.swift in Sources */,
 				3470E68524C2516F008235DC /* TitleModifier.swift in Sources */,
 				34462EB024B99F6000D03A7C /* StatisticResponseModel.swift in Sources */,
 				34462EAD24B99EB400D03A7C /* NewCasesView.swift in Sources */,
@@ -578,6 +593,7 @@
 				3470E68924C25195008235DC /* BodyModifier.swift in Sources */,
 				34462EAE24B99F4E00D03A7C /* Color+Hex.swift in Sources */,
 				34462EBA24B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */,
+				3470E6AD24C25ED0008235DC /* WidgetNumbersModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
