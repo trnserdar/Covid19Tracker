@@ -63,6 +63,24 @@
 		34462EB924B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */; };
 		34462EBA24B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */; };
 		34462EBB24B9B0A800D03A7C /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7724B5056200D03A7C /* NetworkConstants.swift */; };
+		3470E67F24C24F40008235DC /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E67E24C24F40008235DC /* View+Modifiers.swift */; };
+		3470E68024C24F40008235DC /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E67E24C24F40008235DC /* View+Modifiers.swift */; };
+		3470E68124C24F40008235DC /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E67E24C24F40008235DC /* View+Modifiers.swift */; };
+		3470E68324C2516F008235DC /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68224C2516F008235DC /* TitleModifier.swift */; };
+		3470E68424C2516F008235DC /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68224C2516F008235DC /* TitleModifier.swift */; };
+		3470E68524C2516F008235DC /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68224C2516F008235DC /* TitleModifier.swift */; };
+		3470E68724C25195008235DC /* BodyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68624C25195008235DC /* BodyModifier.swift */; };
+		3470E68824C25195008235DC /* BodyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68624C25195008235DC /* BodyModifier.swift */; };
+		3470E68924C25195008235DC /* BodyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68624C25195008235DC /* BodyModifier.swift */; };
+		3470E68B24C25348008235DC /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68A24C25348008235DC /* NumbersView.swift */; };
+		3470E68C24C25348008235DC /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68A24C25348008235DC /* NumbersView.swift */; };
+		3470E68D24C25348008235DC /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68A24C25348008235DC /* NumbersView.swift */; };
+		3470E68F24C25510008235DC /* NumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68E24C2550F008235DC /* NumbersModifier.swift */; };
+		3470E69024C25510008235DC /* NumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68E24C2550F008235DC /* NumbersModifier.swift */; };
+		3470E69124C25510008235DC /* NumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68E24C2550F008235DC /* NumbersModifier.swift */; };
+		3470E69724C256DD008235DC /* StatisticModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69624C256DD008235DC /* StatisticModifier.swift */; };
+		3470E69824C256DD008235DC /* StatisticModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69624C256DD008235DC /* StatisticModifier.swift */; };
+		3470E69924C256DD008235DC /* StatisticModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69624C256DD008235DC /* StatisticModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +140,12 @@
 		34462EA224B6518C00D03A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34462EAA24B99EB400D03A7C /* NewCasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCasesView.swift; sourceTree = "<group>"; };
 		34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionServiceClient.swift; sourceTree = "<group>"; };
+		3470E67E24C24F40008235DC /* View+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
+		3470E68224C2516F008235DC /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		3470E68624C25195008235DC /* BodyModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyModifier.swift; sourceTree = "<group>"; };
+		3470E68A24C25348008235DC /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		3470E68E24C2550F008235DC /* NumbersModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersModifier.swift; sourceTree = "<group>"; };
+		3470E69624C256DD008235DC /* StatisticModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +196,7 @@
 				34462E5A24B5007100D03A7C /* Networking */,
 				34462E5824B5005E00D03A7C /* SupportingFiles */,
 				34462E5924B5006D00D03A7C /* Views */,
+				3470E67524C24EAB008235DC /* ViewModifiers */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -232,6 +257,7 @@
 				34462E8424B6379400D03A7C /* CaseView.swift */,
 				34462E8724B63FA500D03A7C /* DeathView.swift */,
 				34462EAA24B99EB400D03A7C /* NewCasesView.swift */,
+				3470E68A24C25348008235DC /* NumbersView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				34462E7B24B50D0500D03A7C /* Color+Hex.swift */,
+				3470E67E24C24F40008235DC /* View+Modifiers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -284,6 +311,18 @@
 				34462EA224B6518C00D03A7C /* Info.plist */,
 			);
 			path = DailyReport;
+			sourceTree = "<group>";
+		};
+		3470E67524C24EAB008235DC /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3470E68224C2516F008235DC /* TitleModifier.swift */,
+				3470E68624C25195008235DC /* BodyModifier.swift */,
+				3470E68E24C2550F008235DC /* NumbersModifier.swift */,
+				3470E69624C256DD008235DC /* StatisticModifier.swift */,
+			);
+			name = ViewModifiers;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +461,9 @@
 			files = (
 				34462E8E24B6458D00D03A7C /* CountryDetailView.swift in Sources */,
 				34462E8224B636AB00D03A7C /* StatisticHeaderView.swift in Sources */,
+				3470E67F24C24F40008235DC /* View+Modifiers.swift in Sources */,
+				3470E68B24C25348008235DC /* NumbersView.swift in Sources */,
+				3470E69724C256DD008235DC /* StatisticModifier.swift in Sources */,
 				34462E6924B5047A00D03A7C /* StatisticModel.swift in Sources */,
 				34462E7224B5054B00D03A7C /* NetworkRouter.swift in Sources */,
 				34462E7824B5056200D03A7C /* NetworkConstants.swift in Sources */,
@@ -429,10 +471,13 @@
 				34462E9124B645DD00D03A7C /* DateView.swift in Sources */,
 				34462E8524B6379400D03A7C /* CaseView.swift in Sources */,
 				34462E8824B63FA500D03A7C /* DeathView.swift in Sources */,
+				3470E68724C25195008235DC /* BodyModifier.swift in Sources */,
 				34462E7F24B6360F00D03A7C /* CountryView.swift in Sources */,
+				3470E68F24C25510008235DC /* NumbersModifier.swift in Sources */,
 				34462E5D24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E6C24B504AF00D03A7C /* Continent.swift in Sources */,
 				34462EAB24B99EB400D03A7C /* NewCasesView.swift in Sources */,
+				3470E68324C2516F008235DC /* TitleModifier.swift in Sources */,
 				34462E6324B5034E00D03A7C /* ServiceClient.swift in Sources */,
 				34462E7524B5055400D03A7C /* NetworkClient.swift in Sources */,
 				34462E6F24B504DC00D03A7C /* StatisticResponseModel.swift in Sources */,
@@ -449,6 +494,9 @@
 			files = (
 				34462E8F24B6458D00D03A7C /* CountryDetailView.swift in Sources */,
 				34462E8324B636AB00D03A7C /* StatisticHeaderView.swift in Sources */,
+				3470E68024C24F40008235DC /* View+Modifiers.swift in Sources */,
+				3470E68C24C25348008235DC /* NumbersView.swift in Sources */,
+				3470E69824C256DD008235DC /* StatisticModifier.swift in Sources */,
 				34462E6A24B5047A00D03A7C /* StatisticModel.swift in Sources */,
 				34462E7324B5054B00D03A7C /* NetworkRouter.swift in Sources */,
 				34462E7924B5056200D03A7C /* NetworkConstants.swift in Sources */,
@@ -456,10 +504,13 @@
 				34462E9224B645DD00D03A7C /* DateView.swift in Sources */,
 				34462E8624B6379400D03A7C /* CaseView.swift in Sources */,
 				34462E8924B63FA500D03A7C /* DeathView.swift in Sources */,
+				3470E68824C25195008235DC /* BodyModifier.swift in Sources */,
 				34462E8024B6360F00D03A7C /* CountryView.swift in Sources */,
+				3470E69024C25510008235DC /* NumbersModifier.swift in Sources */,
 				34462E5E24B5025300D03A7C /* StatisticView.swift in Sources */,
 				34462E6D24B504AF00D03A7C /* Continent.swift in Sources */,
 				34462EAC24B99EB400D03A7C /* NewCasesView.swift in Sources */,
+				3470E68424C2516F008235DC /* TitleModifier.swift in Sources */,
 				34462E6424B5034E00D03A7C /* ServiceClient.swift in Sources */,
 				34462E7624B5055400D03A7C /* NetworkClient.swift in Sources */,
 				34462E7024B504DC00D03A7C /* StatisticResponseModel.swift in Sources */,
@@ -475,12 +526,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				34462EBB24B9B0A800D03A7C /* NetworkConstants.swift in Sources */,
+				3470E68D24C25348008235DC /* NumbersView.swift in Sources */,
 				34462E9F24B6518900D03A7C /* DailyReport.swift in Sources */,
+				3470E69124C25510008235DC /* NumbersModifier.swift in Sources */,
+				3470E68524C2516F008235DC /* TitleModifier.swift in Sources */,
 				34462EB024B99F6000D03A7C /* StatisticResponseModel.swift in Sources */,
 				34462EAD24B99EB400D03A7C /* NewCasesView.swift in Sources */,
 				34462EB224B99F6000D03A7C /* NumbersModel.swift in Sources */,
+				3470E69924C256DD008235DC /* StatisticModifier.swift in Sources */,
+				3470E68124C24F40008235DC /* View+Modifiers.swift in Sources */,
 				34462EB324B99F6000D03A7C /* Continent.swift in Sources */,
 				34462EB124B99F6000D03A7C /* StatisticModel.swift in Sources */,
+				3470E68924C25195008235DC /* BodyModifier.swift in Sources */,
 				34462EAE24B99F4E00D03A7C /* Color+Hex.swift in Sources */,
 				34462EBA24B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */,
 			);
