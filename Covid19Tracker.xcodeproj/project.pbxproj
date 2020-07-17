@@ -74,7 +74,6 @@
 		3470E68924C25195008235DC /* BodyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68624C25195008235DC /* BodyModifier.swift */; };
 		3470E68B24C25348008235DC /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68A24C25348008235DC /* NumbersView.swift */; };
 		3470E68C24C25348008235DC /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68A24C25348008235DC /* NumbersView.swift */; };
-		3470E68D24C25348008235DC /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68A24C25348008235DC /* NumbersView.swift */; };
 		3470E68F24C25510008235DC /* NumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68E24C2550F008235DC /* NumbersModifier.swift */; };
 		3470E69024C25510008235DC /* NumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68E24C2550F008235DC /* NumbersModifier.swift */; };
 		3470E69124C25510008235DC /* NumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68E24C2550F008235DC /* NumbersModifier.swift */; };
@@ -256,16 +255,10 @@
 		34462E5924B5006D00D03A7C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				34462E5C24B5025300D03A7C /* StatisticView.swift */,
-				34462E8124B636AB00D03A7C /* StatisticHeaderView.swift */,
-				34462E7E24B6360F00D03A7C /* CountryView.swift */,
-				34462E8D24B6458D00D03A7C /* CountryDetailView.swift */,
-				34462E9024B645DD00D03A7C /* DateView.swift */,
-				34462E8A24B641D900D03A7C /* TestView.swift */,
-				34462E8424B6379400D03A7C /* CaseView.swift */,
-				34462E8724B63FA500D03A7C /* DeathView.swift */,
+				3470E6A524C25C68008235DC /* General */,
+				3470E6A324C25C3F008235DC /* Statistic */,
+				3470E6A424C25C4B008235DC /* CountryDetail */,
 				34462EAA24B99EB400D03A7C /* NewCasesView.swift */,
-				3470E68A24C25348008235DC /* NumbersView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -333,6 +326,36 @@
 			);
 			name = ViewModifiers;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3470E6A324C25C3F008235DC /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				34462E5C24B5025300D03A7C /* StatisticView.swift */,
+				34462E8124B636AB00D03A7C /* StatisticHeaderView.swift */,
+				34462E7E24B6360F00D03A7C /* CountryView.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		3470E6A424C25C4B008235DC /* CountryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				34462E8D24B6458D00D03A7C /* CountryDetailView.swift */,
+				34462E9024B645DD00D03A7C /* DateView.swift */,
+				34462E8A24B641D900D03A7C /* TestView.swift */,
+				34462E8424B6379400D03A7C /* CaseView.swift */,
+				34462E8724B63FA500D03A7C /* DeathView.swift */,
+			);
+			path = CountryDetail;
+			sourceTree = "<group>";
+		};
+		3470E6A524C25C68008235DC /* General */ = {
+			isa = PBXGroup;
+			children = (
+				3470E68A24C25348008235DC /* NumbersView.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -540,7 +563,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				34462EBB24B9B0A800D03A7C /* NetworkConstants.swift in Sources */,
-				3470E68D24C25348008235DC /* NumbersView.swift in Sources */,
 				34462E9F24B6518900D03A7C /* DailyReport.swift in Sources */,
 				3470E69124C25510008235DC /* NumbersModifier.swift in Sources */,
 				3470E68524C2516F008235DC /* TitleModifier.swift in Sources */,
