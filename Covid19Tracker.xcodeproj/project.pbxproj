@@ -81,6 +81,9 @@
 		3470E69724C256DD008235DC /* StatisticModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69624C256DD008235DC /* StatisticModifier.swift */; };
 		3470E69824C256DD008235DC /* StatisticModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69624C256DD008235DC /* StatisticModifier.swift */; };
 		3470E69924C256DD008235DC /* StatisticModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69624C256DD008235DC /* StatisticModifier.swift */; };
+		3470E69B24C259B6008235DC /* HeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69A24C259B6008235DC /* HeaderModifier.swift */; };
+		3470E69C24C259B6008235DC /* HeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69A24C259B6008235DC /* HeaderModifier.swift */; };
+		3470E69D24C259B6008235DC /* HeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E69A24C259B6008235DC /* HeaderModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +149,7 @@
 		3470E68A24C25348008235DC /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
 		3470E68E24C2550F008235DC /* NumbersModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersModifier.swift; sourceTree = "<group>"; };
 		3470E69624C256DD008235DC /* StatisticModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModifier.swift; sourceTree = "<group>"; };
+		3470E69A24C259B6008235DC /* HeaderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +320,7 @@
 		3470E67524C24EAB008235DC /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				3470E69A24C259B6008235DC /* HeaderModifier.swift */,
 				3470E68224C2516F008235DC /* TitleModifier.swift */,
 				3470E68624C25195008235DC /* BodyModifier.swift */,
 				3470E68E24C2550F008235DC /* NumbersModifier.swift */,
@@ -470,6 +475,7 @@
 				34462E8B24B641D900D03A7C /* TestView.swift in Sources */,
 				34462E9124B645DD00D03A7C /* DateView.swift in Sources */,
 				34462E8524B6379400D03A7C /* CaseView.swift in Sources */,
+				3470E69B24C259B6008235DC /* HeaderModifier.swift in Sources */,
 				34462E8824B63FA500D03A7C /* DeathView.swift in Sources */,
 				3470E68724C25195008235DC /* BodyModifier.swift in Sources */,
 				34462E7F24B6360F00D03A7C /* CountryView.swift in Sources */,
@@ -503,6 +509,7 @@
 				34462E8C24B641D900D03A7C /* TestView.swift in Sources */,
 				34462E9224B645DD00D03A7C /* DateView.swift in Sources */,
 				34462E8624B6379400D03A7C /* CaseView.swift in Sources */,
+				3470E69C24C259B6008235DC /* HeaderModifier.swift in Sources */,
 				34462E8924B63FA500D03A7C /* DeathView.swift in Sources */,
 				3470E68824C25195008235DC /* BodyModifier.swift in Sources */,
 				34462E8024B6360F00D03A7C /* CountryView.swift in Sources */,
@@ -532,6 +539,7 @@
 				3470E68524C2516F008235DC /* TitleModifier.swift in Sources */,
 				34462EB024B99F6000D03A7C /* StatisticResponseModel.swift in Sources */,
 				34462EAD24B99EB400D03A7C /* NewCasesView.swift in Sources */,
+				3470E69D24C259B6008235DC /* HeaderModifier.swift in Sources */,
 				34462EB224B99F6000D03A7C /* NumbersModel.swift in Sources */,
 				3470E69924C256DD008235DC /* StatisticModifier.swift in Sources */,
 				3470E68124C24F40008235DC /* View+Modifiers.swift in Sources */,

@@ -9,6 +9,10 @@ import SwiftUI
 
 extension View {
     
+    func headerStyle(backgroundColor: Color) -> some View {
+        self.modifier(HeaderModifier(backgroundColor: backgroundColor))
+    }
+    
     func titleStyle() -> some View {
         self.modifier(TitleModifier())
     }
