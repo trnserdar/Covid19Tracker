@@ -34,4 +34,23 @@ extension Color {
             opacity: Double(a) / 255
         )
     }
+    
+    static var dateColor: Color {
+        get {
+            return Color(hex: "204051")
+        }
+    }
+    
+    static var testColor: Color {
+        get {
+            return Color(hex: "84a9ac")
+        }
+    }
+    
+    static var caseColor: Color {
+        get {
+            return Color(hex: "3b6978")
+        }
+    }
+    
 }
