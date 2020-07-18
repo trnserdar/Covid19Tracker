@@ -1,13 +1,13 @@
 //
-//  NewCasesView.swift
+//  NewCasesSmallView.swift
 //  Covid19Tracker
 //
-//  Created by Serdar Turan on 11.07.2020.
+//  Created by Serdar Turan on 18.07.2020.
 //
 
 import SwiftUI
 
-struct NewCasesView: View {
+struct NewCasesSmallView: View {
     
     var statistic: StatisticModel
     
@@ -43,8 +43,8 @@ struct NewCasesView: View {
     }
 }
 
-struct NewCasesView_Previews: PreviewProvider {
+struct NewCasesSmallView_Previews: PreviewProvider {
     static var previews: some View {
-        NewCasesView(statistic: StatisticModel.testData)
+        NewCasesSmallView(statistic: StatisticModel.testData)
     }
 }

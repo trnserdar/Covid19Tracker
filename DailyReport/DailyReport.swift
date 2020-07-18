@@ -12,7 +12,7 @@ struct Provider: TimelineProvider {
     public typealias Entry = SimpleEntry
 
     public func snapshot(with context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), statistic: StatisticModel.testData)
+        let entry = SimpleEntry(date: Date(), statistics: [StatisticModel.testData])
         completion(entry)
     }
 
@@ -24,16 +24,15 @@ struct Provider: TimelineProvider {
 
             guard error == nil,
                 let response = response,
-                let list = response.response,
-                let all = list.first(where: {$0.country == "Turkey"}) else {
+                let list = response.response else {
                 print("getStatistics error: \(error?.localizedDescription ?? "")")
-                let timeline = Timeline(entries: [SimpleEntry(date: Date(), statistic: StatisticModel.testData)], policy: .after(newEntryDate))
+                let timeline = Timeline(entries: [SimpleEntry(date: Date(), statistics: [StatisticModel.testData])], policy: .after(newEntryDate))
                 completion(timeline)
                 return
             }
             
             print("getStatistics date: \(Date())")
-            let timeline = Timeline(entries: [SimpleEntry(date: Date(), statistic: all)], policy: .after(newEntryDate))
+            let timeline = Timeline(entries: [SimpleEntry(date: Date(), statistics: list)], policy: .after(newEntryDate))
             completion(timeline)
         }
     }
@@ -41,25 +40,50 @@ struct Provider: TimelineProvider {
 
 struct SimpleEntry: TimelineEntry {
     public let date: Date
-    let statistic: StatisticModel
+    let statistics: [StatisticModel]
 }
 
 struct PlaceholderView : View {
     var body: some View {
         ZStack {
             Color(hex: "204051")
-            NewCasesView(statistic: StatisticModel.testData)
+            NewCasesSmallView(statistic: StatisticModel.testData)
         }
     }
 }
 
 struct DailyReportEntryView : View {
+    
     var entry: Provider.Entry
+    @Environment(\.widgetFamily) var family
 
+    @ViewBuilder
     var body: some View {
-        ZStack {
-            Color(hex: "204051")
-            NewCasesView(statistic: entry.statistic)
+        
+        switch family {
+        case .systemSmall:
+            
+            ZStack {
+                Color.dateColor
+                NewCasesSmallView(statistic: entry.statistics.first(where: {$0.country == "Turkey"}) ?? StatisticModel.testData)
+            }
+            
+        case .systemMedium:
+            
+            ZStack {
+                Color.dateColor
+                NewCasesMediumView(statistic: entry.statistics.first(where: {$0.country == "Turkey"}) ?? StatisticModel.testData)
+            }
+            
+        case .systemLarge:
+            
+            ZStack {
+                Color.dateColor
+                NewCasesLargeView(statistic: entry.statistics.first(where: {$0.country == "Turkey"}) ?? StatisticModel.testData, statisticWorld: entry.statistics.first(where: {$0.country == "All"}))
+            }
+            
+        default:
+            EmptyView()
         }
     }
 }
@@ -74,6 +98,7 @@ struct DailyReport: Widget {
         }
         .configurationDisplayName("Covid19 Daily Tracker")
         .description("Shows daily Covid19 numbers.")
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
     }
 }
 
@@ -81,15 +106,14 @@ struct DailyReport_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             
-            NewCasesView(statistic: StatisticModel.testData)
+            NewCasesSmallView(statistic: StatisticModel.testData)
                 .previewContext(WidgetPreviewContext(family: .systemSmall))
             
-            NewCasesView(statistic: StatisticModel.testData)
+            NewCasesMediumView(statistic: StatisticModel.testData)
                 .previewContext(WidgetPreviewContext(family: .systemMedium))
 
-            
-            PlaceholderView()
-                .previewContext(WidgetPreviewContext(family: .systemSmall))
+            NewCasesLargeView(statistic: StatisticModel.testData, statisticWorld: StatisticModel.testData)
+                .previewContext(WidgetPreviewContext(family: .systemLarge))
         }
     }
 }
