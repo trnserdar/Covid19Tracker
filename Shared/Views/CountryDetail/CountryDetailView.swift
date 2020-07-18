@@ -10,14 +10,29 @@ import SwiftUI
 struct CountryDetailView: View {
     
     var statistic: StatisticModel
+    @Environment(\.horizontalSizeClass) var sizeClass
     
     var body: some View {
         
         ScrollView {
-            DateView(date: statistic.time ?? "")
             
-            if statistic.tests != nil {
-                TestView(testNumbers: statistic.tests!)
+            if sizeClass == .compact {
+                VStack {
+                    DateView(date: statistic.time ?? "")
+                    
+                    if statistic.tests != nil {
+                        TestView(testNumbers: statistic.tests!)
+                    }
+                }
+            } else {
+                
+                HStack {
+                    DateView(date: statistic.time ?? "")
+                    
+                    if statistic.tests != nil {
+                        TestView(testNumbers: statistic.tests!)
+                    }
+                }
             }
 
             if statistic.cases != nil {
