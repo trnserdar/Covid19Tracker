@@ -32,6 +32,7 @@ struct StatisticView: View {
             .onAppear(perform: getStatistics)
             .navigationTitle("Covid 19 Tracker")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
     func getStatistics() {
