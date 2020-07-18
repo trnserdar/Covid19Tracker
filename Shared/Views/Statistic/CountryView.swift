@@ -10,6 +10,7 @@ import SwiftUI
 struct CountryView: View {
     
     var statistic: StatisticModel
+    @Environment(\.horizontalSizeClass) var sizeClass
 
     var body: some View {
         
@@ -17,6 +18,11 @@ struct CountryView: View {
             Text("\(self.statistic.country ?? "")")
                 .countryStyle(foregroundColor: Color.testColor)
 
+            if sizeClass != .compact {
+                Text("\(self.statistic.cases?.new ?? "")")
+                    .countryStyle(foregroundColor: Color.testColor)
+            }
+            
             Text("\(self.statistic.deaths?.new ?? "")")
                 .countryStyle(foregroundColor: Color.caseColor)
 
