@@ -1,7 +1,7 @@
 # Covid19 Tracker
 
 # About
-A prototype app about Covid19 using latest SwiftUI.
+A prototype app about Covid19 numbers using latest SwiftUI.
 
 # Requirements
 * Xcode 12 Beta
@@ -22,9 +22,9 @@ A prototype app about Covid19 using latest SwiftUI.
 
 # ScreenShots
 <div align="center">
-  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/iPad1.PNG" width="1112" height="834"/>
-  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/iPad2.PNG" width="1112" height="834"/>
-  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/dark1.PNG" width="1112" height="834"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/iPad1.PNG" width="556" height="417"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/iPad2.PNG" width="556" height="417"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/dark1.PNG" width="556" height="417"/>
   <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/widgetSmall.png" width="414" height="896"/>
   <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/widgetMedium.png" width="414" height="896"/>
   <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/widgetLarge.png" width="414" height="896"/>
