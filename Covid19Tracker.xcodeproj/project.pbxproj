@@ -53,9 +53,6 @@
 		34462EA524B6518C00D03A7C /* DailyReportExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34462E9724B6518900D03A7C /* DailyReportExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		34462EAE24B99F4E00D03A7C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7B24B50D0500D03A7C /* Color+Hex.swift */; };
 		34462EB324B99F6000D03A7C /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6B24B504AF00D03A7C /* Continent.swift */; };
-		34462EB824B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */; };
-		34462EB924B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */; };
-		34462EBA24B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */; };
 		34462EBB24B9B0A800D03A7C /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7724B5056200D03A7C /* NetworkConstants.swift */; };
 		3470E67F24C24F40008235DC /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E67E24C24F40008235DC /* View+Modifiers.swift */; };
 		3470E68024C24F40008235DC /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E67E24C24F40008235DC /* View+Modifiers.swift */; };
@@ -115,7 +112,6 @@
 		3470E6FA24C4313E008235DC /* StatisticResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6E24B504DC00D03A7C /* StatisticResponseModel.swift */; };
 		3470E6FB24C43155008235DC /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7724B5056200D03A7C /* NetworkConstants.swift */; };
 		3470E6FC24C43155008235DC /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6224B5034E00D03A7C /* ServiceClient.swift */; };
-		3470E6FD24C43155008235DC /* URLSessionServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */; };
 		3470E6FE24C43155008235DC /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7424B5055400D03A7C /* NetworkClient.swift */; };
 		3470E6FF24C43155008235DC /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7124B5054B00D03A7C /* NetworkRouter.swift */; };
 		3470E70124C431A2008235DC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3470E70024C431A2008235DC /* Alamofire */; };
@@ -129,6 +125,9 @@
 		3470E70B24C434B1008235DC /* WidgetNumbersModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E6AA24C25ED0008235DC /* WidgetNumbersModifier.swift */; };
 		3470E70C24C434B1008235DC /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E68224C2516F008235DC /* TitleModifier.swift */; };
 		3470E70D24C43505008235DC /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3470E67E24C24F40008235DC /* View+Modifiers.swift */; };
+		3470E70E24C43CC8008235DC /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E6224B5034E00D03A7C /* ServiceClient.swift */; };
+		3470E70F24C43CCC008235DC /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7424B5055400D03A7C /* NetworkClient.swift */; };
+		3470E71024C43CCF008235DC /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34462E7124B5054B00D03A7C /* NetworkRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,7 +221,6 @@
 		34462E9E24B6518900D03A7C /* DailyReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReport.swift; sourceTree = "<group>"; };
 		34462EA024B6518C00D03A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34462EA224B6518C00D03A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionServiceClient.swift; sourceTree = "<group>"; };
 		3470E67E24C24F40008235DC /* View+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
 		3470E68224C2516F008235DC /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		3470E68624C25195008235DC /* BodyModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyModifier.swift; sourceTree = "<group>"; };
@@ -380,7 +378,6 @@
 			isa = PBXGroup;
 			children = (
 				34462E6224B5034E00D03A7C /* ServiceClient.swift */,
-				34462EB724B9ADCF00D03A7C /* URLSessionServiceClient.swift */,
 				34462E7424B5055400D03A7C /* NetworkClient.swift */,
 				34462E7124B5054B00D03A7C /* NetworkRouter.swift */,
 				34462E7724B5056200D03A7C /* NetworkConstants.swift */,
@@ -778,7 +775,6 @@
 				34462E6624B5042400D03A7C /* NumbersModel.swift in Sources */,
 				34462E7C24B50D0500D03A7C /* Color+Hex.swift in Sources */,
 				34462E4924B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
-				34462EB824B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -817,7 +813,6 @@
 				34462E6724B5042400D03A7C /* NumbersModel.swift in Sources */,
 				34462E7D24B50D0500D03A7C /* Color+Hex.swift in Sources */,
 				34462E4A24B5005200D03A7C /* Covid19TrackerApp.swift in Sources */,
-				34462EB924B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,10 +823,13 @@
 				34462EBB24B9B0A800D03A7C /* NetworkConstants.swift in Sources */,
 				34462E9F24B6518900D03A7C /* DailyReport.swift in Sources */,
 				3470E69124C25510008235DC /* NumbersModifier.swift in Sources */,
+				3470E71024C43CCF008235DC /* NetworkRouter.swift in Sources */,
+				3470E70F24C43CCC008235DC /* NetworkClient.swift in Sources */,
 				3470E6A924C25DFF008235DC /* WidgetNumbersView.swift in Sources */,
 				3470E6B624C37AA2008235DC /* NewCasesMediumView.swift in Sources */,
 				3470E6F624C4313A008235DC /* NumbersModel.swift in Sources */,
 				3470E6BA24C384F5008235DC /* NewCasesLargeView.swift in Sources */,
+				3470E70E24C43CC8008235DC /* ServiceClient.swift in Sources */,
 				3470E68524C2516F008235DC /* TitleModifier.swift in Sources */,
 				3470E69D24C259B6008235DC /* HeaderModifier.swift in Sources */,
 				3470E6A124C25B0A008235DC /* CountryModifier.swift in Sources */,
@@ -842,7 +840,6 @@
 				3470E6B224C37A48008235DC /* NewCasesSmallView.swift in Sources */,
 				3470E68924C25195008235DC /* BodyModifier.swift in Sources */,
 				34462EAE24B99F4E00D03A7C /* Color+Hex.swift in Sources */,
-				34462EBA24B9ADCF00D03A7C /* URLSessionServiceClient.swift in Sources */,
 				3470E6F524C4313A008235DC /* StatisticModel.swift in Sources */,
 				3470E6AD24C25ED0008235DC /* WidgetNumbersModifier.swift in Sources */,
 			);
@@ -861,7 +858,6 @@
 				3470E6F824C4313E008235DC /* StatisticModel.swift in Sources */,
 				3470E70A24C434B1008235DC /* StatisticModifier.swift in Sources */,
 				3470E6FB24C43155008235DC /* NetworkConstants.swift in Sources */,
-				3470E6FD24C43155008235DC /* URLSessionServiceClient.swift in Sources */,
 				3470E70B24C434B1008235DC /* WidgetNumbersModifier.swift in Sources */,
 				3470E6FC24C43155008235DC /* ServiceClient.swift in Sources */,
 				3470E6F924C4313E008235DC /* NumbersModel.swift in Sources */,

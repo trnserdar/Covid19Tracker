@@ -17,14 +17,14 @@ struct Provider: TimelineProvider {
     }
 
     public func timeline(with context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+                
+        NetworkClient.getStatistics { (response, error) in
         
-        URLSessionServiceClient.getStatistics { (response, error) in
-            
             let newEntryDate = Calendar.current.date(byAdding: .hour, value: 1, to: Date())!
 
             guard error == nil,
-                let response = response,
-                let list = response.response else {
+                  let response = response,
+                  let list = response.response  else {
                 print("getStatistics error: \(error?.localizedDescription ?? "")")
                 let timeline = Timeline(entries: [SimpleEntry(date: Date(), statistics: [StatisticModel.testData])], policy: .after(newEntryDate))
                 completion(timeline)
