@@ -22,6 +22,14 @@ A prototype app about Covid19 using latest SwiftUI.
 
 # ScreenShots
 <div align="center">
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/iPad1.PNG" width="1112" height="834"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/iPad2.PNG" width="1112" height="834"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/dark1.PNG" width="1112" height="834"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/widgetSmall.png" width="414" height="896"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/widgetMedium.png" width="414" height="896"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/widgetLarge.png" width="414" height="896"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/watch1.png" width="184" height="224"/>
+  <img src="https://github.com/trnserdar/Covid19Tracker/blob/main/ScreenShots/watch2.png" width="184" height="224"/>
 </div>
 
 # Contacts
