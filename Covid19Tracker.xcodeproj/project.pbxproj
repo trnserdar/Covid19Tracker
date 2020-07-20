@@ -311,7 +311,7 @@
 				34462E5A24B5007100D03A7C /* Networking */,
 				34462E5824B5005E00D03A7C /* SupportingFiles */,
 				34462E5924B5006D00D03A7C /* Views */,
-				3470E67524C24EAB008235DC /* ViewModifiers */,
+				3470E67524C24EAB008235DC /* ViewModifier */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -424,7 +424,7 @@
 			path = DailyReport;
 			sourceTree = "<group>";
 		};
-		3470E67524C24EAB008235DC /* ViewModifiers */ = {
+		3470E67524C24EAB008235DC /* ViewModifier */ = {
 			isa = PBXGroup;
 			children = (
 				3470E69A24C259B6008235DC /* HeaderModifier.swift */,
@@ -435,7 +435,7 @@
 				3470E69624C256DD008235DC /* StatisticModifier.swift */,
 				3470E6AA24C25ED0008235DC /* WidgetNumbersModifier.swift */,
 			);
-			name = ViewModifiers;
+			name = ViewModifier;
 			path = "New Group";
 			sourceTree = "<group>";
 		};
